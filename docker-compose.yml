@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  telegram-bot:
+    build: .
+    container_name: transmission-telegram-bot
+    restart: unless-stopped
+    environment:
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - TRANSMISSION_HOST=${TRANSMISSION_HOST:-192.168.1.1}
+      - TRANSMISSION_PORT=${TRANSMISSION_PORT:-9091}
+      - TRANSMISSION_USERNAME=${TRANSMISSION_USERNAME:-torr}
+      - TRANSMISSION_PASSWORD=${TRANSMISSION_PASSWORD:-h3YTeVcPfyx5NXH}
+      - TRANSMISSION_PATH=${TRANSMISSION_PATH:-/transmission/rpc}
+    networks:
+      - bot-network
+
+networks:
+  bot-network:
+    driver: bridge
+
