@@ -113,7 +113,7 @@ class TransmissionClient:
         try:
             all_torrents = self._client.get_torrents()
             # Активные статусы: downloading, seeding, check, check_wait, download_wait, seed_wait
-            active_statuses = ['downloading', 'seeding', 'check', 'check_wait', 'download_wait', 'seed_wait']
+            active_statuses = ['downloading', 'seeding', 'check', 'check_wait', 'download_wait', 'seed_wait', 'download_pending']
             active_torrents = [
                 t for t in all_torrents 
                 if t.status in active_statuses

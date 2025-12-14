@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\reposExt\\dockerPythonTorrent\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\reposExt\\dockerPythonTorrent\\transmission_client.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:transmission_client.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\reposExt\\dockerPythonTorrent\\bot.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bot.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "transmission_client.py",
+              "DocumentMoniker": "D:\\reposExt\\dockerPythonTorrent\\transmission_client.py",
+              "RelativeDocumentMoniker": "transmission_client.py",
+              "ToolTip": "D:\\reposExt\\dockerPythonTorrent\\transmission_client.py",
+              "RelativeToolTip": "transmission_client.py",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAG4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-14T08:54:49.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "bot.py",
               "DocumentMoniker": "D:\\reposExt\\dockerPythonTorrent\\bot.py",
               "RelativeDocumentMoniker": "bot.py",
               "ToolTip": "D:\\reposExt\\dockerPythonTorrent\\bot.py",
               "RelativeToolTip": "bot.py",
-              "ViewState": "AgIAACgBAAAAAAAAAAAAACwBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-12-13T19:44:03.654Z",
               "EditorCaption": ""
